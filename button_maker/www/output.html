@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button-original {
+  border: none;
+  width: 360px;
+  height: 300px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button {
+  width: 250px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  background-size: auto 150px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.text-background {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  left: 0%;
+  bottom: 0%;
+  background-image: linear-gradient(#79C37C, #4CAF50);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title-text {
+  position: absolute;
+  width: 100%;
+  bottom: 45%;
+  left: 0%;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.url-text {
+  position: absolute;
+  width: 90%;
+  bottom: 10%;
+  left: 5%;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+</style>
+
+
+</head>
+<body>
+
+           <button class="button" onclick = "window.open('https://www.eurekalert.org/pub_releases/2020-10/wfbm-srr100920.php')" style = "background-image: url('https://www.eurekalert.org/socialshare/EurekAlert-bluebg_Twitter_1200x675.jpg');">
+  <span class = "text-background">
+  <span class = "title-text">
+  Scientists report role for dopamine and serotonin in human perception and decision-making
+</span>
+  <span class = url-text>
+https://www.eurekalert.org/pub_releases/2020-10/wfbm-srr100920.php
+</span>
+  </span>
+  </button>
+
+</body>
+</html>
+
+
